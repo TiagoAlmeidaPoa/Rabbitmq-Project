@@ -22,6 +22,7 @@ repositories {
 }
 
 dependencies {
+	implementation 'org.rabbitmq:commons:1.0-SNAPSHOT'
 	implementation 'org.springframework.boot:spring-boot-starter-amqp'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
