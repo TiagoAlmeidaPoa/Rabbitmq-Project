@@ -13,7 +13,6 @@ public class RabbitMQConfig {
     public static final String EXG_NAME_MARKETPLACE = "marketplace.direct";
     public static final String QUEUE_PRODUCT_LOG = "product.log";
     public static final String RK_PRODUCT_LOG = "product.log";
-
     @Bean
     public Queue queue() {
         return new Queue(QUEUE_PRODUCT_LOG, false, false, false);

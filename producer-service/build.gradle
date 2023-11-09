@@ -22,9 +22,9 @@ repositories {
 }
 
 dependencies {
+	implementation(files("C:\\workspaces\\ws-Curso Full Stack Developer\\RabbitMQ\\commons\\commons\\build\\libs\\commons-1.0-SNAPSHOT.jar"))
 	implementation 'org.springframework.boot:spring-boot-starter-amqp'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.rabbitmq:commons:1.0-SNAPSHOT'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
