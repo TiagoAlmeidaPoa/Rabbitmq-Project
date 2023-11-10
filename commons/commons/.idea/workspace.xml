@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcf62e5e-f4b1-4415-9937-0fdd59f02f6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../producer-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../producer-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../producer-service/src/main/java/br/com/almeida/producerservice/configs/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../producer-service/src/main/java/br/com/almeida/producerservice/configs/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constantes/RabbitMQConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../producer-service/src/main/java/br/com/almeida/producerservice/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../producer-service/src/main/java/br/com/almeida/producerservice/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dtos/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtos/ProductDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +36,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -58,7 +63,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.commons [build]">
+  <component name="RunManager" selected="Gradle.commons [jar]">
     <configuration name="commons [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -127,9 +132,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.commons [build]" />
-        <item itemvalue="Gradle.commons [clean]" />
         <item itemvalue="Gradle.commons [jar]" />
+        <item itemvalue="Gradle.commons [clean]" />
+        <item itemvalue="Gradle.commons [build]" />
       </list>
     </recent_temporary>
   </component>
